@@ -2,7 +2,7 @@
 All development environment setup files go here. Including configs for OS, VM, Docker, App configs, like dotfiles, but more.
 
 Step 1:
-soruce cfg-init
+source cfg-init
 
 
 Advices from github.io:
