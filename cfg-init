@@ -2,6 +2,6 @@
 git init --bare $HOME/.cfg
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config config --local status.showUntrackedFiles no
-echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+echo "alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
 
 # Reference: https://www.atlassian.com/git/tutorials/dotfiles
